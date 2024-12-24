@@ -28,7 +28,7 @@ const DarkMode = () => {
 
   return (
     <div className='relative'>
-        <img src={darkPng} alt="" onClick={changeTheme} className={`w-12 absolute right-0 z-10 cursor-pointer drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300 ${theme == "dark" ? "opacity-0" : "opacity-100"}`}/>
+        <img src={darkPng} alt="" onClick={changeTheme} className={`w-12 absolute right-0 z-10 cursor-pointer drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300 ${theme !== "dark" ? "opacity-0" : "opacity-100"}`}/>
         <img src={ligthPng} alt="" onClick={changeTheme} className='w-12 cursor-pointer drop-shadow-[1px_1px_1px_rgba(0,0,0,0.1)] transition-all duration-300'/>
     </div>
   )
