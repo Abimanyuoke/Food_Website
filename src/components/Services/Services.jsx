@@ -25,7 +25,7 @@ const ServicesData = [
 
 const Services = () => {
   return (
-    <div className='py-10'>
+    <div className='py-10 dark:bg-slate-900 dark:text-white'>
       <div className='container'>
         {/* Header section */}
         <div className='text-center mb-20 max-w-[400px] mx-auto'>
