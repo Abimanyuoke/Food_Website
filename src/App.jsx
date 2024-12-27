@@ -3,6 +3,9 @@ import { Navbar } from './components/Navbar/Navbar'
 import Hero from './components/Hero/Hero'
 import Services from './components/Services/Services'
 import Banner from './components/Banner/Banner'
+import AppStore from './components/AppStore/AppStore'
+import Testimonial from './components/Testimonial/Testimonial'
+import Footer from './components/Footer/Footer'
 
 const App = () => {
   return (
@@ -12,6 +15,9 @@ const App = () => {
       <Services/>
       <Banner/>
       {/* Banner Card */}
+      <AppStore/>
+      <Testimonial/>
+      <Footer/>
     </div>
   )
 }
